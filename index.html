@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Quiz Container -->
+    <div class="container" style="display: none;">
+        <div class="timer">Time Left: 05:00</div>
+        <div class="numbers">
+        </div>
+        <div class="cont">
+            <h1 id="question"></h1>
+        </div>
+        <div class="answers">
+            <label class="answerss" for="answer1input">
+                <span>A</span>
+                <input type="radio" name="answer" id="answer1input">
+                <div id="answer1para"></div>
+            </label>
+            <label class="answerss" for="answer2input">
+                <span>B</span>
+                <input type="radio" name="answer" id="answer2input">
+                <div id="answer2para"></div>
+            </label>
+            <label class="answerss" for="answer3input">
+                <span>C</span>
+                <input type="radio" name="answer" id="answer3input">
+                <div id="answer3para"></div>
+            </label>
+            <label class="answerss" for="answer4input">
+                <span>D</span>
+                <input type="radio" name="answer" id="answer4input">
+                <div id="answer4para"></div>
+            </label>
+        </div>
+        <div class="buttons">
+            <button id="previous">Previous</button>
+            <button id="save">Save</button>
+            <button id="clear" style="display: none">Clear</button>
+            <button id="next">Next</button>
+            <button id="end">End</button>
+        </div>
+    </div>
+
+    <!-- Result Container -->
+    <div class="result-wrapper" style="display: none">
+        <div class="result-container">
+            <p class="card-title">Score Card</p>
+            <div class="divider"></div>
+            <p class="subtitle">Your final score is</p>
+            <div class="score-display">15 / 15</div>
+            <p class="congrats">Congratulations!</p>
+            <!-- View Corrected Answer Button -->
+            <a href="#" class="view-answers-btn">View Corrected Answer</a>
+        </div>
+    </div>
+
+    <!-- Review Section -->
+    <div class="review-wrapper" style="display: none;">
+        <div class="numbers2">
+        </div>
+        <h2 class="review-title"></h2>
+        <div class="review-container" >
+            <div class="review-question" id="review-question"> total continent on earth</div>
+            <div class="review-answer" id="review-answer1">5</div>
+            <div class="review-answer"id="review-answer2">6</div>
+            <div class="review-answer" id="review-answer3">7</div>
+            <div class="review-answer" id="review-answer4">8</div>
+
+
+        </div>
+        <div class="buttons">
+            <button class="previous2">Previous</button>
+            <button class="next2">Next</button>
+        </div>
+        <div class="back-to-r"> <button class="back-to-result">BACK TO RESULT</button></div>
+
+
+    </div>
+
+
+    <div class="start-quizz">
+        <div class="quizz-cont">
+            <p class="st-title">General Knowledge</p>
+            <h1 class="st-heading">Quiz Challenge</h1>
+            <p class="st-sub">test what you know</p>
+            <div class="divider1"></div>
+            <div class="st-stats">
+                <div class="st-stat">
+                    <span class="st-stat-val">02</span>
+                    <span class="st-stat-lbh">Question</span>
+                </div>
+                <div class="st-stat">
+                    <span class="st-stat-val">5:00</span>
+                    <span class="st-stat-lbh">Time Limit</span>
+                </div>
+                <div class="st-stat">
+                    <span class="st-stat-val">04</span>
+                    <span class="st-stat-lbh">Option</span>
+                </div>
+            </div>
+            <div class="divider2"></div>
+            <div class="st-rules">
+                <ul>
+                    <li class="st-rules-li">Each question has only one correct answer</li>
+                    <li class="st-rules-li">Save your answer before moving to next</li>
+                    <li class="st-rules-li">You can go back using the Previous button</li>
+                    <li class="st-rules-li">Timer starts when you click Start Quiz</li>
+                </ul>
+            </div>
+            <button class="quizz-btn">Start quizz</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -68,8 +68,8 @@ A modern and interactive quiz application built with **Vanilla HTML, CSS & JavaS
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/XR-9/quiz-challenge-app.git
-cd quiz-challenge-app
+git clone https://github.com/XR-9/javascript-quizz-app.git
+cd javascript-quizz-app
 ```
 
 ### 2. Open the project
